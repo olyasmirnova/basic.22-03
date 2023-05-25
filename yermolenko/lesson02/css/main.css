@@ -1,0 +1,97 @@
+:root {
+    --bg_color: #ffb6c1;
+    --reset_button_color: #ff69b4;
+    --secondary_color: #800080;
+}
+
+.form {
+    color: var(--secondary_color);
+    width: 80%;
+    width: 700px;
+    margin: 10px auto;
+    padding: 40px 40px 30px;
+    border: 2px solid var(--secondary_color);
+    border-radius: 10px;
+    background-color: var(--bg_color);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.title {
+    font-size: 20px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.input_container {
+    margin-bottom: 20px;
+}
+
+.input_container .label {
+    font-size: 15px;
+    display: block;
+    margin: 10px 0;
+}
+
+.input,
+.message_area {
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 7px;
+    border: 1px solid var(--secondary_color);
+    padding: 5px;
+}
+
+.input_container input:focus,
+.message_area:focus,
+.select:focus {
+    outline: none;
+}
+
+.input {
+    height: 30px;
+}
+
+.select {
+    width: 100%;
+}
+
+.fieldset {
+    margin: 0px 0px 15px;
+    padding: 0px;
+    border: none;
+}
+
+.fieldset .label {
+    color: black;
+    font-size: 15px;
+}
+
+.legend {
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+
+.message_area {
+    min-height: 160px;
+}
+
+.buttons {
+    text-align: right;
+}
+
+.rst_btn {
+    border-radius: 7px;
+    padding: 10px 20px;
+    color: var(--secondary_color);
+    background-color: var(--reset_button_color);
+    border: 1px solid var(--secondary_color);
+}
+
+.sbm_btn {
+    border-radius: 7px;
+    padding: 10px 20px;
+    background-color: var(--secondary_color);
+    color: var(--bg_color);
+    margin-left: 15px;
+    border: none;
+}

@@ -1,0 +1,48 @@
+body{background: blue;
+color: blueviolet;}
+h1{text-align:center ;}
+.hw2{
+    width: 600px;
+margin: 0 auto;
+background: pink;
+border-radius: 10px;
+border-color: green;
+border-bottom: solid pink 70px;}
+.nazva{display:block;
+    margin: 17px 0px 3px 27px;
+}
+.stroka{border-radius: 10px;
+    width: 540px;
+    padding: 6px;
+    margin: 0px 0 0 20px;
+    border-color: green;
+border-color: green;}
+.nazva1{display: block;
+    margin: 12px 0 0 23px;
+border: none;}
+.vik{margin: 0 0 18px 22px;
+    width: 551px;}
+.ramka{border: none;}
+.age{margin: 0 0 0 10px;}
+.dot1{margin: 8px 4px 0px 12px;}
+.option{border: none;}
+.nazva2{margin: 0 0 0 10px;}
+.dot{margin: 6px 4px 0 13px;}
+.area{border: none;}
+.nazva3{padding: 17px 0px 0px 0px;
+    margin: 0px 0px 0px 10px;}
+.colonka{margin: 0px 0 0 7px;
+padding: 0 0 0 0;
+border-radius: 10px;
+width: 554px;
+    box-sizing: border-box;
+border-color: green;}
+.btn{ margin:19px 0px 0px 362px;
+    padding: 0 0 0 0px;}
+.knopka{border-radius: 10px;
+    background: green;
+    border: deepskyblue solid 3px;
+    color: brown;
+    width: 77px;
+    padding: 7px;
+    margin: 8px;}
